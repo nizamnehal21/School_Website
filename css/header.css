@@ -1,0 +1,172 @@
+/* HEADER */
+.site-header {
+    background: #ffffff;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 18px;
+    gap: 5;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.navbar-page {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* BRAND */
+.brand-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.brand-logo {
+    width: 70px;
+    margin-right: 12px;
+}
+
+.brand-name {
+    font-size: 26px;
+    font-weight: 700;
+    color: #0e2a47;
+    line-height: 1.1;
+}
+
+/* NAVIGATION */
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #1d3557;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.nav-menu a:hover {
+    color: #a6180d;
+}
+
+/* LOGIN BUTTON */
+.login {
+    width: 100px;
+    background: #0e2a47;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.login-btn {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.login-btn:hover {
+    background: #163b63;
+}
+
+/* HAMBURGER */
+.menu-toggle {
+    display: none;
+    font-size: 26px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    /* HEADER */
+    .site-header {
+        width: 100%;
+        /* padding: 10px 15px; */
+    }
+
+    .navbar {
+        align-items: center;
+    }
+
+    /* LOGIN BUTTON TOP */
+    .login {
+        width: 100%;
+        height: 40px;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    /* BRAND + MENU ROW */
+    .navbar-page {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    /* LOGO */
+    .brand-logo {
+        width: 50px;
+        margin-right: 8px;
+    }
+
+    .brand-name {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+
+    /* HIDE DESKTOP MENU */
+    .navigation {
+        position: absolute;
+        top: 12%;
+        left: 0;
+        width: 100%;
+        background: #ffffff;
+        display: none;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.08);
+    }
+
+    /* MOBILE MENU STYLE */
+    .nav-menu {
+        flex-direction: column;
+        gap: 0;
+        padding: 10px 0;
+    }
+
+    .nav-menu li {
+        width: 100%;
+        text-align: center;
+        padding: 12px 0;
+        border-bottom: 1px solid #eee;
+    }
+
+    .nav-menu a {
+        font-size: 16px;
+        display: block;
+        width: 100%;
+    }
+
+    /* SHOW HAMBURGER */
+    .menu-toggle {
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 60px;
+    }
+
+    /* WHEN MENU ACTIVE (JS CLASS) */
+    .navigation.active {
+        display: block;
+    }
+
+}

@@ -1,0 +1,626 @@
+/* Home */
+@media only screen and (max-width: 480px) {
+
+    main {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .StanfordElementary {
+        flex-direction: column-reverse;
+        background: #0ce413;
+    }
+
+    .Stanford {
+        width: 100%;
+        height: 400px;
+    }
+
+    .Stanford span {
+        margin-left: 20px;
+    }
+
+    .Stanford span:nth-child(1) {
+        font-size: 34px;
+    }
+
+    .Stanford span:nth-child(2) {
+        font-size: 34px;
+    }
+
+    .Stanford span:nth-child(3) a {
+        font-size: 16px;
+    }
+
+    .Stanfordimg {
+        width: 100%;
+        height: 400px;
+    }
+
+    .Safetyf {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .Safetyimg {
+        width: 100%;
+        padding: 30px 0px;
+    }
+
+    .Safetyimg img {
+        width: 95%;
+    }
+
+    .Safety {
+        width: 100%;
+        padding: 60px 20px;
+    }
+
+    .Safety span {
+        left: 0;
+        margin: 10px 0;
+    }
+
+    .Safety span:nth-child(1) {
+        font-size: 26px;
+    }
+
+    .Safety span:nth-child(2) {
+        font-size: 15px;
+        width: 250px;
+    }
+
+    .whystandford {
+        font-size: 26px;
+        height: 146px;
+    }
+
+    .OurApproach-container {
+        flex-direction: column;
+    }
+
+    .Approach,
+    .Admissionm,
+    .Enhancediv,
+    .LatestE,
+    .ParentsF,
+    .div3,
+    .div4 {
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .Approachimg img,
+    .div2 img,
+    .div3 img,
+    .div4 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .App {
+        position: static;
+        padding: 20px;
+    }
+
+    .App span:nth-child(1) {
+        font-size: 24px;
+    }
+
+    .App span:nth-child(2) {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .Admissionm span,
+    .LatestE span,
+    .ParentsF span {
+        position: static;
+        margin: 10px 20px;
+    }
+
+    .Admissionm span:nth-child(1),
+    .LatestE span:nth-child(1),
+    .ParentsF span:nth-child(1),
+    .Enh span:nth-child(1) {
+        font-size: 24px;
+    }
+
+    .Admissionm span:nth-child(2),
+    .LatestE span:nth-child(2),
+    .ParentsF span:nth-child(2),
+    .Enh span:nth-child(2) {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .Enh span {
+        position: static;
+        margin: 10px 20px;
+        display: block;
+    }
+
+    .StanfordElementaryN {
+        font-size: 26px;
+        height: 146px;
+    }
+
+    aside {
+        display: none;
+    }
+
+}
+
+/* About */
+@media only screen and (max-width: 480px) {
+
+    .abouth {
+        flex-direction: column-reverse;
+        height: auto;
+        margin-bottom: 0;
+    }
+
+    .about {
+        width: 100%;
+        height: auto;
+        padding: 50px 20px;
+    }
+
+    .about span,
+    .about p {
+        padding-left: 10px;
+    }
+
+    .about span:nth-child(1),
+    .about span:nth-child(2) {
+        font-size: 36px;
+    }
+
+    .about p {
+        font-size: 21px;
+        width: 100%;
+        margin-top: 10px;
+        line-height: 2em;
+    }
+
+    .aboutimg {
+        width: 100%;
+        height: auto;
+    }
+
+    .aboutimg img {
+        display: block;
+        height: auto;
+    }
+
+    .Safetyf {
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .Safetyff,
+    .missionr {
+        width: 100%;
+        padding: 40px 20px;
+    }
+
+    .Safetyff span,
+    .missionr span {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .Safetyff span:nth-child(1) img,
+    .missionr span:nth-child(1) img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .Safetyff span:nth-child(2),
+    .missionr span:nth-child(2) {
+        font-size: 28px;
+        width: 100%;
+        line-height: 1.3;
+    }
+
+    .Safetyff span:nth-child(3),
+    .Safetyff span:nth-child(4),
+    .missionr span:nth-child(3),
+    .missionr span:nth-child(4) {
+        width: 100%;
+        font-size: 21px;
+        line-height: 1.8;
+    }
+
+    .visionv {
+        padding: 50px 20px;
+        margin-top: 0px;
+    }
+
+    .vision {
+        font-size: 28px;
+        margin-bottom: 30px;
+        line-height: 1.3;
+    }
+
+    .vvalues {
+        font-size: 34px;
+        line-height: 1.4;
+    }
+
+    .FacultyStaff {
+        margin-top: 0px;
+    }
+
+    .fs {
+        margin-left: 0;
+        padding: 40px 20px 0;
+    }
+
+    .fs span {
+        font-size: 28px;
+    }
+
+    .fs p {
+        font-size: 21px;
+    }
+
+    .fscart {
+        width: 100%;
+        padding-bottom: 0;
+    }
+
+    .fsimg {
+        width: 100%;
+        height: auto;
+    }
+
+    .fsimg img {
+        width: 100%;
+        height: auto;
+    }
+
+    .fsinfo {
+        position: static;
+        margin-right: 10px;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .fsinfo span {
+        position: static;
+        left: 0;
+        top: 0;
+    }
+
+    .fsinfo span:nth-child(1) {
+        font-size: 22px;
+    }
+
+    .fsinfo span:nth-child(2) {
+        font-size: 16px;
+    }
+
+    .fsinfo span:nth-child(3) {
+        font-size: 14px;
+        text-decoration: underline;
+    }
+
+}
+
+/* Admissionm */
+@media only screen and (max-width: 480px) {
+
+    .admissionsh {
+        flex-direction: column-reverse;
+    }
+
+    .admissions {
+        width: 100%;
+        padding: 40px 20px;
+        align-items: flex-start;
+    }
+
+    .admissions span {
+        font-size: 34px;
+        padding-right: 0;
+        line-height: 1.2;
+    }
+
+    .admissions p {
+        width: 100%;
+        font-size: 21px;
+        line-height: 1.8;
+    }
+
+    .admissionsimg {
+        width: 100%;
+        height: auto;
+    }
+
+    .admissionsimg img {
+        width: 100%;
+        height: auto;
+        display: block;
+        object-fit: cover;
+    }
+
+    .Safetyf {
+        flex-direction: column;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .Safetyff,
+    .Tuition {
+        width: 100%;
+        height: auto;
+        padding: 40px 20px;
+        align-items: flex-start;
+    }
+
+    .safetyffchild,
+    .tuitionchild {
+        width: 100%;
+    }
+
+    .safetyffchild span,
+    .tuitionchild span {
+        font-size: 30px;
+        line-height: 1.2;
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    .safetyffchild p,
+    .tuitionchild p {
+        width: 100%;
+        font-size: 21px;
+        line-height: 1.8;
+        margin-bottom: 15px;
+    }
+
+    .faq {
+        flex-direction: column-reverse;
+    }
+
+    .faqq {
+        width: 100%;
+        padding: 40px 20px;
+        align-items: flex-start;
+    }
+
+    .faqq span {
+        font-size: 34px;
+        padding-right: 0;
+        line-height: 1.2;
+    }
+
+    .faqq p {
+        width: 100%;
+        font-size: 21px;
+        line-height: 1.8;
+    }
+
+    .faqqimg {
+        width: 100%;
+        height: auto;
+    }
+
+    .faqqimg img {
+        width: 100%;
+        height: auto;
+        display: block;
+        object-fit: cover;
+    }
+
+}
+
+/* Learning */
+@media only screen and (max-width: 480px) {
+
+    .Learningkid {
+        flex-direction: column-reverse;
+        height: auto;
+        margin-bottom: 0;
+    }
+
+    .Learningkids {
+        width: 100%;
+        padding: 25px 20px;
+    }
+
+    .Learningkids span {
+        font-size: 26px;
+        width: 100%;
+        display: block;
+    }
+
+    .Learningkidimg img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .Learningkid1 {
+        width: 100%;
+        padding: 25px 20px;
+        align-items: flex-start;
+    }
+
+    .Learningkid1 p {
+        width: 100%;
+        font-size: 21px;
+        line-height: 1.8;
+    }
+
+}
+
+/* Nevents */
+@media only screen and (max-width: 480px) {
+    .LatestNews {
+        height: auto;
+        padding: 40px 20px;
+        margin-bottom: 40px;
+    }
+
+    .LatestNewsHeading {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        margin-bottom: 30px;
+    }
+
+    .LatestNewsHeading h1 {
+        font-size: 28px;
+    }
+
+    .LatestNewsHeading a {
+        font-size: 15px;
+    }
+
+    .LatestNewsCart {
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .news-item {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .news-item img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .news-item h2 {
+        width: 100%;
+        font-size: 20px;
+        margin: 20px;
+    }
+}
+
+/* Parents */
+@media only screen and (max-width: 480px) {
+    .parents {
+        padding-bottom: 40px;
+    }
+
+    .parentfirst {
+        flex-direction: column-reverse;
+        margin-bottom: 40px;
+    }
+
+    .parentfirsttext {
+        width: 100%;
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .parentfirsttext span {
+        position: static;
+        width: 100%;
+        font-size: 34px;
+        line-height: 1.2;
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    .parentfirsttext p {
+        position: static;
+        width: 100%;
+        font-size: 21px;
+        line-height: 1.8;
+    }
+
+    .parentimg {
+        width: 100%;
+    }
+
+    .parentimg img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .parentsecond {
+        width: calc(100% - 30px);
+        height: auto;
+        flex-direction: column;
+        padding: 30px 20px;
+        gap: 15px;
+    }
+
+    .parentsecond span:nth-child(1),
+    .parentsecond span:nth-child(2),
+    .parentsecond span:nth-child(3) a {
+        position: static;
+        width: 100%;
+    }
+
+    .parentsecond span:nth-child(1) {
+        font-size: 26px;
+    }
+
+    .parentsecond span:nth-child(2) {
+        font-size: 21px;
+        line-height: 1.8;
+    }
+
+    .parentsecond span:nth-child(3) a {
+        display: inline-block;
+        margin-top: 10px;
+        font-size: 24px;
+    }
+
+    .schoolf {
+        flex-direction: column;
+    }
+
+    .schoolff,
+    .uniform {
+        width: 100%;
+        height: auto;
+        padding: 40px 20px;
+        align-items: flex-start;
+    }
+
+    .schoolff span:nth-child(1) img,
+    .uniform span:nth-child(1) img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .schoolff span:nth-child(2),
+    .uniform span:nth-child(2) {
+        width: 100%;
+        font-size: 28px;
+        position: static;
+        margin-top: 20px;
+    }
+
+    .schoolff span:nth-child(3),
+    .uniform span:nth-child(3) {
+        width: 100%;
+        font-size: 21px;
+        line-height: 1.8;
+        position: static;
+        margin-top: 15px;
+    }
+
+    .uniform a {
+        position: static;
+        margin-top: 15px;
+        font-size: 24px;
+        display: inline-block;
+    }
+}
