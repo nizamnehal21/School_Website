@@ -13,7 +13,7 @@ This project represents a complete multi-page school website layout designed wit
 
 ## 📁 GitHub Repository
 
-🔗 https://github.com/nizamnehal21/School_Website.git
+🔗 https://github.com/nizamnehal/School_Website.git
 
 ---
 
@@ -89,7 +89,7 @@ This project was developed to practice **frontend web development** and demonstr
 1. Clone repository
 
 ```
-git clone https://github.com/nizamnehal21/School_Website.git
+git clone https://github.com/nizamnehal/School_Website.git
 ```
 
 2. Open project folder
@@ -102,7 +102,7 @@ git clone https://github.com/nizamnehal21/School_Website.git
 
 **Md Nizamuddin**
 
-GitHub: https://github.com/nizamnehal21
+GitHub: https://github.com/nizamnehal
 
 ---
 
